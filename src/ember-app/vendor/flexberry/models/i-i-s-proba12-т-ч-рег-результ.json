@@ -1,0 +1,78 @@
+﻿{
+  "name": "IISProba12ТЧРегРезульт",
+  "modelName": "i-i-s-proba12-т-ч-рег-результ",
+  "className": "ТЧРегРезульт",
+  "nameSpace": "IIS.Proba12",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "итогСобес",
+      "type": "i-i-s-proba12-итог-собес",
+      "flexberryType": "ИтогСобес",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "крКомИлиОбсРеш",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "оценкаКандид",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "регРезульт",
+      "relatedTo": "i-i-s-proba12-рег-результ",
+      "inverse": "тЧРегРезульт"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТЧРегРезультE",
+      "modelName": "i-i-s-proba12-т-ч-рег-результ",
+      "attrs": [
+        {
+          "name": "итогСобес",
+          "caption": "Итог собес",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "оценкаКандид",
+          "caption": "Оценка кандид",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "крКомИлиОбсРеш",
+          "caption": "Кр ком или обс реш",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

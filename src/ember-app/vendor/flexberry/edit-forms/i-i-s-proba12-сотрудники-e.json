@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Сотрудники",
+  "name": "IISProba12СотрудникиE",
+  "className": "СотрудникиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proba12-сотрудники",
+      "modelProjection": "СотрудникиE"
+    }
+  ]
+}

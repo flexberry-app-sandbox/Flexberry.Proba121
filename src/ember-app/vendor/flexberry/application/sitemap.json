@@ -1,0 +1,57 @@
+﻿{
+  "applicationCaption": "Proba12",
+  "applicationTitle": "Proba12",
+  "items": [
+    {
+      "link": null,
+      "menuName": "proba12",
+      "caption": "Proba12",
+      "title": "Proba12",
+      "children": [
+        {
+          "link": "i-i-s-proba12-организация-l",
+          "menuName": null,
+          "caption": "Организация",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proba12-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proba12-рег-результ-l",
+          "menuName": null,
+          "caption": "Рег результ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proba12-планир-собес-l",
+          "menuName": null,
+          "caption": "Планир собес",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proba12-регист-анкеты-l",
+          "menuName": null,
+          "caption": "Регист анкеты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proba12-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
