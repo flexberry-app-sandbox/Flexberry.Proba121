@@ -86,7 +86,62 @@
           "lookupValue": "ФИОКандидата",
           "lookupValueField": "фИОКандидата",
           "relationName": "РегистАнкеты",
-          "belongsTo": [],
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "РегистАнкеты.Должности",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "должности",
+                  "caption": "",
+                  "hidden": false,
+                  "index": 10
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "должности",
+              "relatedTo": "i-i-s-proba12-должности",
+              "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "РегистАнкеты.Организация",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "наименование",
+                  "caption": "",
+                  "hidden": false,
+                  "index": 11
+                },
+                {
+                  "name": "адрес",
+                  "caption": "",
+                  "hidden": false,
+                  "index": 12
+                },
+                {
+                  "name": "телОрганиз",
+                  "caption": "",
+                  "hidden": false,
+                  "index": 13
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "организация",
+              "relatedTo": "i-i-s-proba12-организация",
+              "inverse": null
+            }
+          ],
           "hidden": false,
           "attrs": [
             {
@@ -94,6 +149,30 @@
               "caption": "Ф и о кандидата",
               "hidden": true,
               "index": 5
+            },
+            {
+              "name": "серНомПаспорта",
+              "caption": "",
+              "hidden": false,
+              "index": 6
+            },
+            {
+              "name": "номерТелефона",
+              "caption": "",
+              "hidden": false,
+              "index": 7
+            },
+            {
+              "name": "снилс",
+              "caption": "",
+              "hidden": false,
+              "index": 8
+            },
+            {
+              "name": "элПочта",
+              "caption": "",
+              "hidden": false,
+              "index": 9
             }
           ],
           "index": 4,
@@ -149,7 +228,62 @@
           "lookupValue": null,
           "lookupValueField": null,
           "relationName": "РегистАнкеты",
-          "belongsTo": [],
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "РегистАнкеты.Должности",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "должности",
+                  "caption": "",
+                  "hidden": false,
+                  "index": 8
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "должности",
+              "relatedTo": "i-i-s-proba12-должности",
+              "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "РегистАнкеты.Организация",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "наименование",
+                  "caption": "",
+                  "hidden": false,
+                  "index": 9
+                },
+                {
+                  "name": "адрес",
+                  "caption": "",
+                  "hidden": false,
+                  "index": 10
+                },
+                {
+                  "name": "телОрганиз",
+                  "caption": "",
+                  "hidden": false,
+                  "index": 11
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "организация",
+              "relatedTo": "i-i-s-proba12-организация",
+              "inverse": null
+            }
+          ],
           "hidden": false,
           "attrs": [
             {
@@ -157,6 +291,30 @@
               "caption": "Ф и о кандидата",
               "hidden": false,
               "index": 3
+            },
+            {
+              "name": "серНомПаспорта",
+              "caption": "",
+              "hidden": false,
+              "index": 4
+            },
+            {
+              "name": "снилс",
+              "caption": "",
+              "hidden": false,
+              "index": 5
+            },
+            {
+              "name": "номерТелефона",
+              "caption": "",
+              "hidden": false,
+              "index": 6
+            },
+            {
+              "name": "элПочта",
+              "caption": "",
+              "hidden": false,
+              "index": 7
             }
           ],
           "index": -1,

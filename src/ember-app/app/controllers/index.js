@@ -22,37 +22,35 @@ export default Controller.extend({
             link: 'i-i-s-proba12-организация-l',
             caption: i18n.t('forms.application.sitemap.proba12.i-i-s-proba12-организация-l.caption'),
             title: i18n.t('forms.application.sitemap.proba12.i-i-s-proba12-организация-l.title'),
-            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-proba12-должности-l',
             caption: i18n.t('forms.application.sitemap.proba12.i-i-s-proba12-должности-l.caption'),
             title: i18n.t('forms.application.sitemap.proba12.i-i-s-proba12-должности-l.title'),
-            icon: 'tasks',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-proba12-рег-результ-l',
             caption: i18n.t('forms.application.sitemap.proba12.i-i-s-proba12-рег-результ-l.caption'),
             title: i18n.t('forms.application.sitemap.proba12.i-i-s-proba12-рег-результ-l.title'),
-            icon: 'file',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-proba12-планир-собес-l',
             caption: i18n.t('forms.application.sitemap.proba12.i-i-s-proba12-планир-собес-l.caption'),
             title: i18n.t('forms.application.sitemap.proba12.i-i-s-proba12-планир-собес-l.title'),
-            icon: 'list',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-proba12-регист-анкеты-l',
             caption: i18n.t('forms.application.sitemap.proba12.i-i-s-proba12-регист-анкеты-l.caption'),
             title: i18n.t('forms.application.sitemap.proba12.i-i-s-proba12-регист-анкеты-l.title'),
-            icon: 'tags',
+            icon: 'address card',
             children: null
           }, {
             link: 'i-i-s-proba12-сотрудники-l',
             caption: i18n.t('forms.application.sitemap.proba12.i-i-s-proba12-сотрудники-l.caption'),
             title: i18n.t('forms.application.sitemap.proba12.i-i-s-proba12-сотрудники-l.title'),
-            icon: 'edit',
             children: null
           }]
         }

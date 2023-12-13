@@ -81,4 +81,84 @@
     }}
     {{flexberry-validationmessage error=(v-get validationModel "регистАнкеты" "message")}}
   </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.регистАнкеты.серНомПаспорта
+      class=(if (v-get validationModel.регистАнкеты "серНомПаспорта" "isInvalid") "error")
+      label=(t "forms.i-i-s-proba12-планир-собес-e.регистАнкеты.серНомПаспорта-caption")
+      data-test-i-i-s-proba12-планир-собес-e-регистАнкеты-серНомПаспорта=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.регистАнкеты "серНомПаспорта" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.регистАнкеты.номерТелефона
+      class=(if (v-get validationModel.регистАнкеты "номерТелефона" "isInvalid") "error")
+      label=(t "forms.i-i-s-proba12-планир-собес-e.регистАнкеты.номерТелефона-caption")
+      data-test-i-i-s-proba12-планир-собес-e-регистАнкеты-номерТелефона=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.регистАнкеты "номерТелефона" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.регистАнкеты.снилс
+      class=(if (v-get validationModel.регистАнкеты "снилс" "isInvalid") "error")
+      label=(t "forms.i-i-s-proba12-планир-собес-e.регистАнкеты.снилс-caption")
+      data-test-i-i-s-proba12-планир-собес-e-регистАнкеты-снилс=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.регистАнкеты "снилс" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.регистАнкеты.элПочта
+      class=(if (v-get validationModel.регистАнкеты "элПочта" "isInvalid") "error")
+      label=(t "forms.i-i-s-proba12-планир-собес-e.регистАнкеты.элПочта-caption")
+      data-test-i-i-s-proba12-планир-собес-e-регистАнкеты-элПочта=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.регистАнкеты "элПочта" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.регистАнкеты.должности.должности
+      class=(if (v-get validationModel.регистАнкеты.должности "должности" "isInvalid") "error")
+      label=(t "forms.i-i-s-proba12-планир-собес-e.регистАнкеты.должности.должности-caption")
+      data-test-i-i-s-proba12-планир-собес-e-регистАнкеты-должности-должности=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.регистАнкеты.должности "должности" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.регистАнкеты.организация.наименование
+      class=(if (v-get validationModel.регистАнкеты.организация "наименование" "isInvalid") "error")
+      label=(t "forms.i-i-s-proba12-планир-собес-e.регистАнкеты.организация.наименование-caption")
+      data-test-i-i-s-proba12-планир-собес-e-регистАнкеты-организация-наименование=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.регистАнкеты.организация "наименование" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.регистАнкеты.организация.адрес
+      class=(if (v-get validationModel.регистАнкеты.организация "адрес" "isInvalid") "error")
+      label=(t "forms.i-i-s-proba12-планир-собес-e.регистАнкеты.организация.адрес-caption")
+      data-test-i-i-s-proba12-планир-собес-e-регистАнкеты-организация-адрес=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.регистАнкеты.организация "адрес" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.регистАнкеты.организация.телОрганиз
+      class=(if (v-get validationModel.регистАнкеты.организация "телОрганиз" "isInvalid") "error")
+      label=(t "forms.i-i-s-proba12-планир-собес-e.регистАнкеты.организация.телОрганиз-caption")
+      data-test-i-i-s-proba12-планир-собес-e-регистАнкеты-организация-телОрганиз=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.регистАнкеты.организация "телОрганиз" "message")}}
+  </div>
 </form>

@@ -49,7 +49,19 @@ export let defineProjections = function (modelClass) {
       наименование: attr('Наименование', { index: 3, hidden: true })
     }, { index: 2, displayMemberPath: 'наименование' }),
     регистАнкеты: belongsTo('i-i-s-proba12-регист-анкеты', 'Регист анкеты', {
-      фИОКандидата: attr('Ф и о кандидата', { index: 5, hidden: true })
+      фИОКандидата: attr('Ф и о кандидата', { index: 5, hidden: true }),
+      серНомПаспорта: attr('', { index: 6 }),
+      номерТелефона: attr('', { index: 7 }),
+      снилс: attr('', { index: 8 }),
+      элПочта: attr('', { index: 9 }),
+      должности: belongsTo('i-i-s-proba12-должности', '', {
+        должности: attr('', { index: 10 })
+      }, { index: -1, hidden: true }),
+      организация: belongsTo('i-i-s-proba12-организация', '', {
+        наименование: attr('', { index: 11 }),
+        адрес: attr('', { index: 12 }),
+        телОрганиз: attr('', { index: 13 })
+      }, { index: -1, hidden: true })
     }, { index: 4, displayMemberPath: 'фИОКандидата' })
   });
 
@@ -60,7 +72,19 @@ export let defineProjections = function (modelClass) {
       наименование: attr('Наименование', { index: 2 })
     }, { index: -1, hidden: true }),
     регистАнкеты: belongsTo('i-i-s-proba12-регист-анкеты', 'Ф и о кандидата', {
-      фИОКандидата: attr('Ф и о кандидата', { index: 3 })
+      фИОКандидата: attr('Ф и о кандидата', { index: 3 }),
+      серНомПаспорта: attr('', { index: 4 }),
+      снилс: attr('', { index: 5 }),
+      номерТелефона: attr('', { index: 6 }),
+      элПочта: attr('', { index: 7 }),
+      должности: belongsTo('i-i-s-proba12-должности', '', {
+        должности: attr('', { index: 8 })
+      }, { index: -1, hidden: true }),
+      организация: belongsTo('i-i-s-proba12-организация', '', {
+        наименование: attr('', { index: 9 }),
+        адрес: attr('', { index: 10 }),
+        телОрганиз: attr('', { index: 11 })
+      }, { index: -1, hidden: true })
     }, { index: -1, hidden: true })
   });
 };
